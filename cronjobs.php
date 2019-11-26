@@ -4,9 +4,9 @@
  *
  * @author 		Sp3ciaL2X <Sp3ciaL2X@gmail.com>
  * @since 		2019
- * @license 	We live in a free world
- * @copyright 	By Sp3ciaL2X
- * @version 	1.0.0
+ * @license 		We live in a free world
+ * @copyright 		By Sp3ciaL2X
+ * @version 		1.0.0
  *
  **/
 
@@ -17,7 +17,7 @@ interface CronInterface {
 	/**
 	 *
 	 * @final 		True
-	 * @access  	Public
+	 * @access		Public
 	 * @method 		Interface Method Cron::addPermCronJob
 	 * @param 		[ String ]	 $cronName 		= Name of new cron job to add.
 	 * @param 		[ String ]	 $cronTime 		= Time to run the cron job.
@@ -36,7 +36,7 @@ interface CronInterface {
 	/**
 	 *
 	 * @final 		True
-	 * @access  	Public
+	 * @access		Public
 	 * @method 		Interface Method Cron::addTempCronJob
 	 * @param 		[ String ]	 $cronName 		= Name of new cron job to add.
 	 * @param 		[ String ]	 $cronTime 		= Time to run the cron job.
@@ -55,7 +55,7 @@ interface CronInterface {
 	/**
 	 *
 	 * @final 		True
-	 * @access  	Public
+	 * @access		Public
 	 * @method 		Interface Method cron::executeCronJobs
 	 * @param 		[ Void ]
 	 * @return 		[ Boolean ]
@@ -70,7 +70,7 @@ interface CronInterface {
 	/**
 	 *
 	 * @final 		True
-	 * @access  	Public
+	 * @access		Public
 	 * @method 		Interface Method cron::listAllCronJob
 	 * @param 		[ Void ]
 	 * @return 		[ Array ]
